@@ -1,1 +1,1 @@
-# Pr-diktive-Direkte-Demokratie
+# Prädiktive-Direkte-Demokratie
