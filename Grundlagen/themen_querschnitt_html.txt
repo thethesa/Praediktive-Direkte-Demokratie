@@ -1,0 +1,8 @@
+        <tr><td>Gesundheit</td><td>1</td><td>52</td></tr>
+        <tr><td>Digitalisierung</td><td>3</td><td>43</td></tr>
+        <tr><td>Migration</td><td>1</td><td>99</td></tr>
+        <tr><td>Klima & Umwelt</td><td>4</td><td>203</td></tr>
+        <tr><td>EU & Aussenpolitik</td><td>1</td><td>45</td></tr>
+        <tr><td>Soziale Sicherheit</td><td>1</td><td>86</td></tr>
+        <tr><td>Armee & Sicherheit</td><td>1</td><td>84</td></tr>
+        <tr><td>Finanzen & Steuern</td><td>2</td><td>163</td></tr>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swissvotes – Übersichtsdokument</title>
+    <style>
+        body { font-family: 'Segoe UI', system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem; line-height: 1.6; color: #333; }
+        h1 { color: #1a5276; border-bottom: 2px solid #1a5276; padding-bottom: 0.5rem; }
+        h2 { color: #2874a6; margin-top: 2rem; }
+        h3 { color: #3498db; margin-top: 1.5rem; }
+        table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+        th, td { border: 1px solid #bdc3c7; padding: 0.5rem 0.75rem; text-align: left; }
+        th { background: #ecf0f1; font-weight: 600; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .chart { max-width: 100%; height: auto; margin: 1.5rem 0; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .meta { color: #7f8c8d; font-size: 0.9rem; margin-bottom: 2rem; }
+        ul { margin: 0.5rem 0; }
+        .source { font-size: 0.85rem; color: #7f8c8d; margin-top: 2rem; }
+        .chart-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin: 1rem 0; }
+        .chart-grid img { width: 100%; height: auto; }
+        .chart-caption { font-size: 0.9rem; color: #555; margin-top: 0.25rem; }
+    </style>
+</head>
+<body>
+    <h1>Swissvotes – Übersichtsdokument</h1>
+
+    <h2>1. Der Datensatz im Überblick</h2>
+    
+    <h3>1.1 Grundlegende Informationen</h3>
+    <table>
+        <tr><th>Merkmale</th><th>Wert</th></tr>
+        <tr><td>Quelle</td><td>Swissvotes – Année Politique Suisse, Universität Bern</td></tr>
+        <tr><td>Inhalt</td><td>Eidgenössische Volksabstimmungen der Schweiz</td></tr>
+        <tr><td>Zeitraum</td><td>12.09.1848 bis Juni 2026</td></tr>
+        <tr><td>Anzahl Abstimmungen</td><td>708</td></tr>
+        <tr><td>Anzahl Spalten</td><td>874</td></tr>
+        <tr><td>Lizenz</td><td>CC BY 4.0</td></tr>
+    </table>
+
+    <h3>1.2 Abstimmungsergebnisse (1848–2025)</h3>
+    <table>
+        <tr><th>Ergebnis</th><th>Anzahl</th><th>Anteil</th></tr>
+        <tr><td>Angenommen</td><td>328</td><td>46,3 %</td></tr>
+        <tr><td>Abgelehnt</td><td>369</td><td>52,1 %</td></tr>
+        <tr><td>Ohne Ergebnis</td><td>3</td><td>0,4 %</td></tr>
+    </table>
+    <img src="chart_annahme.png" alt="Abstimmungsergebnisse" class="chart" width="400">
+
+    <h3>1.3 Rechtsformen</h3>
+    <table>
+        <tr><th>Code</th><th>Rechtsform</th><th>Anzahl</th></tr>
+        <tr><td>1</td><td>Obligatorisches Referendum</td><td>201</td></tr>
+        <tr><td>2</td><td>Fakultatives Referendum</td><td>218</td></tr>
+        <tr><td>3</td><td>Volksinitiative</td><td>242</td></tr>
+        <tr><td>4</td><td>Direkter Gegenentwurf</td><td>43</td></tr>
+        <tr><td>5</td><td>Stichfrage</td><td>4</td></tr>
+    </table>
+    <img src="chart_rechtsform.png" alt="Rechtsformen" class="chart" width="500">
+
+    <h3>1.4 Abstimmungen pro Jahrzehnt</h3>
+    <img src="chart_jahrzehnt.png" alt="Abstimmungen pro Jahrzehnt" class="chart" width="600">
+
+    <h2>2. Die 12 Hauptgruppen (Politikbereiche)</h2>
+    <p>Jede Abstimmung kann bis zu drei Politikbereichen zugeordnet werden.</p>
+    
+    <img src="chart_hauptgruppen.png" alt="Häufigkeit der Hauptgruppen" class="chart" width="600">
+
+    <h3>2.1 Rangliste</h3>
+    <table>
+        <tr><th>Rang</th><th>Hauptgruppe</th><th>Anzahl</th><th>Anteil</th></tr>
+        <tr><td>1</td><td>Staatsordnung</td><td>208</td><td>29,4 %</td></tr>
+        <tr><td>2</td><td>Sozial- und Gesellschaftspolitik</td><td>207</td><td>29,2 %</td></tr>
+        <tr><td>3</td><td>Öffentliche Finanzen</td><td>139</td><td>19,6 %</td></tr>
+        <tr><td>4</td><td>Wirtschaft</td><td>137</td><td>19,4 %</td></tr>
+        <tr><td>5</td><td>Umwelt und Lebensraum</td><td>112</td><td>15,8 %</td></tr>
+        <tr><td>6</td><td>Sicherheitspolitik</td><td>84</td><td>11,9 %</td></tr>
+        <tr><td>7</td><td>Verkehr und Infrastruktur</td><td>63</td><td>8,9 %</td></tr>
+        <tr><td>8</td><td>Landwirtschaft</td><td>59</td><td>8,3 %</td></tr>
+        <tr><td>9</td><td>Aussenpolitik</td><td>45</td><td>6,4 %</td></tr>
+        <tr><td>10</td><td>Energie</td><td>33</td><td>4,7 %</td></tr>
+        <tr><td>11</td><td>Bildung und Forschung</td><td>31</td><td>4,4 %</td></tr>
+        <tr><td>12</td><td>Kultur, Religion, Medien</td><td>30</td><td>4,2 %</td></tr>
+    </table>
+
+    <h3>2.2 Übereinstimmung Volk – Bundesratsempfehlung</h3>
+    <p>Folgt das Volk den Empfehlungen des Bundesrats? Die Tabelle zeigt nur Vorlagen, bei denen der Bundesrat eine klare Position (Befürwortend oder Ablehnend) vertrat. «Gefolgt» bedeutet: Das Abstimmungsergebnis entspricht der Bundesratsempfehlung.</p>
+    <table>
+        <tr><th>Hauptgruppe</th><th>Gefolgt</th><th>Nicht gefolgt</th><th>Total</th><th>Anteil gefolgt</th></tr>
+        <tr><td>Sozial- und Gesellschaftspolitik</td><td>103</td><td>25</td><td>128</td><td>80,5 %</td></tr>
+        <tr><td>Staatsordnung</td><td>54</td><td>27</td><td>81</td><td>66,7 %</td></tr>
+        <tr><td>Verkehr und Infrastruktur</td><td>41</td><td>11</td><td>52</td><td>78,8 %</td></tr>
+        <tr><td>Wirtschaft</td><td>36</td><td>13</td><td>49</td><td>73,5 %</td></tr>
+        <tr><td>Öffentliche Finanzen</td><td>36</td><td>11</td><td>47</td><td>76,6 %</td></tr>
+        <tr><td>Sicherheitspolitik</td><td>34</td><td>12</td><td>46</td><td>73,9 %</td></tr>
+        <tr><td>Umwelt und Lebensraum</td><td>35</td><td>8</td><td>43</td><td>81,4 %</td></tr>
+        <tr><td>Landwirtschaft</td><td>22</td><td>9</td><td>31</td><td>71,0 %</td></tr>
+        <tr><td>Aussenpolitik</td><td>21</td><td>9</td><td>30</td><td>70,0 %</td></tr>
+        <tr><td>Energie</td><td>15</td><td>5</td><td>20</td><td>75,0 %</td></tr>
+        <tr><td>Bildung und Forschung</td><td>16</td><td>4</td><td>20</td><td>80,0 %</td></tr>
+        <tr><td>Kultur, Religion, Medien</td><td>9</td><td>5</td><td>14</td><td>64,3 %</td></tr>
+    </table>
+    <img src="chart_bundesrat_uebereinstimmung.png" alt="Übereinstimmung Volk – Bundesratsempfehlung nach Hauptgruppe" class="chart" width="600">
+
+    <h3>2.3 Anteil angenommener Vorlagen nach 4-Jahresperiode (pro Hauptgruppe)</h3>
+    <p>Liniendiagramme: X-Achse = 4-Jahresabstände, Y-Achse = Anteil angenommener Vorlagen in %. Je Hauptgruppe eine Zeitreihe.</p>
+    <div class="chart-grid">
+        <div><img src="chart_annahme_hg01.png" alt="Staatsordnung" class="chart"><p class="chart-caption">1. Staatsordnung</p></div>
+        <div><img src="chart_annahme_hg02.png" alt="Aussenpolitik" class="chart"><p class="chart-caption">2. Aussenpolitik</p></div>
+        <div><img src="chart_annahme_hg03.png" alt="Sicherheitspolitik" class="chart"><p class="chart-caption">3. Sicherheitspolitik</p></div>
+        <div><img src="chart_annahme_hg04.png" alt="Wirtschaft" class="chart"><p class="chart-caption">4. Wirtschaft</p></div>
+        <div><img src="chart_annahme_hg05.png" alt="Landwirtschaft" class="chart"><p class="chart-caption">5. Landwirtschaft</p></div>
+        <div><img src="chart_annahme_hg06.png" alt="Öffentliche Finanzen" class="chart"><p class="chart-caption">6. Öffentliche Finanzen</p></div>
+        <div><img src="chart_annahme_hg07.png" alt="Energie" class="chart"><p class="chart-caption">7. Energie</p></div>
+        <div><img src="chart_annahme_hg08.png" alt="Verkehr und Infrastruktur" class="chart"><p class="chart-caption">8. Verkehr und Infrastruktur</p></div>
+        <div><img src="chart_annahme_hg09.png" alt="Umwelt und Lebensraum" class="chart"><p class="chart-caption">9. Umwelt und Lebensraum</p></div>
+        <div><img src="chart_annahme_hg10.png" alt="Sozial- und Gesellschaftspolitik" class="chart"><p class="chart-caption">10. Sozial- und Gesellschaftspolitik</p></div>
+        <div><img src="chart_annahme_hg11.png" alt="Bildung und Forschung" class="chart"><p class="chart-caption">11. Bildung und Forschung</p></div>
+        <div><img src="chart_annahme_hg12.png" alt="Kultur, Religion, Medien" class="chart"><p class="chart-caption">12. Kultur, Religion, Medien</p></div>
+    </div>
+
+    <h3>2.4 Bundesratsempfehlung: Gefolgt vs. nicht gefolgt (gestapelt, pro 4-Jahresperiode)</h3>
+    <p>Gestapelte Balkendiagramme: X-Achse = 4-Jahresabstände, Y-Achse = Anteil in %. Grün = Volk folgte der Bundesratsempfehlung, Rot = Volk folgte nicht. Nur Vorlagen mit klarer BR-Position.</p>
+    <div class="chart-grid">
+        <div><img src="chart_bundesrat_hg01.png" alt="Staatsordnung" class="chart"><p class="chart-caption">1. Staatsordnung</p></div>
+        <div><img src="chart_bundesrat_hg02.png" alt="Aussenpolitik" class="chart"><p class="chart-caption">2. Aussenpolitik</p></div>
+        <div><img src="chart_bundesrat_hg03.png" alt="Sicherheitspolitik" class="chart"><p class="chart-caption">3. Sicherheitspolitik</p></div>
+        <div><img src="chart_bundesrat_hg04.png" alt="Wirtschaft" class="chart"><p class="chart-caption">4. Wirtschaft</p></div>
+        <div><img src="chart_bundesrat_hg05.png" alt="Landwirtschaft" class="chart"><p class="chart-caption">5. Landwirtschaft</p></div>
+        <div><img src="chart_bundesrat_hg06.png" alt="Öffentliche Finanzen" class="chart"><p class="chart-caption">6. Öffentliche Finanzen</p></div>
+        <div><img src="chart_bundesrat_hg07.png" alt="Energie" class="chart"><p class="chart-caption">7. Energie</p></div>
+        <div><img src="chart_bundesrat_hg08.png" alt="Verkehr und Infrastruktur" class="chart"><p class="chart-caption">8. Verkehr und Infrastruktur</p></div>
+        <div><img src="chart_bundesrat_hg09.png" alt="Umwelt und Lebensraum" class="chart"><p class="chart-caption">9. Umwelt und Lebensraum</p></div>
+        <div><img src="chart_bundesrat_hg10.png" alt="Sozial- und Gesellschaftspolitik" class="chart"><p class="chart-caption">10. Sozial- und Gesellschaftspolitik</p></div>
+        <div><img src="chart_bundesrat_hg11.png" alt="Bildung und Forschung" class="chart"><p class="chart-caption">11. Bildung und Forschung</p></div>
+        <div><img src="chart_bundesrat_hg12.png" alt="Kultur, Religion, Medien" class="chart"><p class="chart-caption">12. Kultur, Religion, Medien</p></div>
+    </div>
+
+    <h3>2.5 Wortanalyse</h3>
+    <p>Häufigste Wörter in den Kurztiteln (<code>titel_kurz_d</code>) und Stichwörtern (<code>stichwort</code>) der Vorlagen. Stopwörter (der, die, und, etc.) und Wörter mit 3 oder weniger Zeichen wurden ausgeschlossen.</p>
+    <img src="chart_wortanalyse.png" alt="Wortanalyse" class="chart" width="600">
+    <table>
+        <tr><th>Rang</th><th>Wort</th><th>Häufigkeit</th></tr>
+        <tr><td>1</td><td>initiative</td><td>253</td></tr>
+        <tr><td>2</td><td>gesetz</td><td>49</td></tr>
+        <tr><td>3</td><td>bundesbeschluss</td><td>38</td></tr>
+        <tr><td>4</td><td>gegenentwurf</td><td>28</td></tr>
+        <tr><td>5</td><td>ahv</td><td>25</td></tr>
+        <tr><td>6</td><td>einführung</td><td>19</td></tr>
+        <tr><td>7</td><td>betreffend</td><td>16</td></tr>
+        <tr><td>8</td><td>artikel</td><td>14</td></tr>
+        <tr><td>9</td><td>verfassungsartikel</td><td>14</td></tr>
+        <tr><td>10</td><td>aufhebung</td><td>14</td></tr>
+        <tr><td>11</td><td>massnahmen</td><td>14</td></tr>
+        <tr><td>12</td><td>revision</td><td>13</td></tr>
+        <tr><td>13</td><td>neuordnung</td><td>12</td></tr>
+        <tr><td>14</td><td>schutz</td><td>11</td></tr>
+        <tr><td>15</td><td>verbot</td><td>10</td></tr>
+        <tr><td>16</td><td>weiterführung</td><td>10</td></tr>
+        <tr><td>17</td><td>erhöhung</td><td>10</td></tr>
+        <tr><td>18</td><td>nationalrates</td><td>9</td></tr>
+        <tr><td>19</td><td>beschluss</td><td>8</td></tr>
+        <tr><td>20</td><td>finanzordnung</td><td>8</td></tr>
+        <tr><td>21</td><td>änderung</td><td>8</td></tr>
+        <tr><td>22</td><td>bundesverfassung</td><td>7</td></tr>
+        <tr><td>23</td><td>krankenversicherung</td><td>7</td></tr>
+        <tr><td>24</td><td>volksinitiative</td><td>7</td></tr>
+        <tr><td>25</td><td>bekämpfung</td><td>7</td></tr>
+        <tr><td>26</td><td>abkommen</td><td>7</td></tr>
+        <tr><td>27</td><td>finanzierung</td><td>7</td></tr>
+        <tr><td>28</td><td>mehrwertsteuer</td><td>7</td></tr>
+        <tr><td>29</td><td>reform</td><td>6</td></tr>
+        <tr><td>30</td><td>teil</td><td>5</td></tr>
+    </table>
+
+    <h2>3. Querschnittsthemen</h2>
+    <p>Breite Themenbereiche, die mehrere Hauptgruppen berühren. Die Zuordnung erfolgt gemäss den Politikbereichen (d1e1–d3e3) im Swissvotes-Datensatz. Eine Abstimmung kann mehreren Themen zugeordnet sein.</p>
+    <table>
+        <tr><th>Thema</th><th>Anzahl Hauptgruppen</th><th>Anzahl Abstimmungen</th></tr>
+        <tr><td>Gesundheit</td><td>1</td><td>52</td></tr>
+        <tr><td>Digitalisierung</td><td>3</td><td>43</td></tr>
+        <tr><td>Migration</td><td>1</td><td>99</td></tr>
+        <tr><td>Klima & Umwelt</td><td>4</td><td>203</td></tr>
+        <tr><td>EU & Aussenpolitik</td><td>1</td><td>45</td></tr>
+        <tr><td>Soziale Sicherheit</td><td>1</td><td>86</td></tr>
+        <tr><td>Armee & Sicherheit</td><td>1</td><td>84</td></tr>
+        <tr><td>Finanzen & Steuern</td><td>2</td><td>163</td></tr>
+    </table>
+
+    <h3>3.1 Gesundheit</h3>
+    <p>52 Abstimmungen | Hauptgruppe: 10 (Sozial- und Gesellschaftspolitik)</p>
+    <table>
+        <tr><th>Thema</th><th>Hauptgruppe</th><th>Unterbereich</th></tr>
+        <tr><td>Gesundheitspolitik</td><td>10. Sozial- und Gesellschaftspolitik</td><td>10.1.1</td></tr>
+        <tr><td>Medizinforschung, Medikamente</td><td>10. Sozial- und Gesellschaftspolitik</td><td>10.1.2, 10.1.3</td></tr>
+        <tr><td>Suchtmittel</td><td>10. Sozial- und Gesellschaftspolitik</td><td>10.1.4</td></tr>
+        <tr><td>Fortpflanzungsmedizin</td><td>10. Sozial- und Gesellschaftspolitik</td><td>10.1.5</td></tr>
+        <tr><td>Krankenversicherung</td><td>10. Sozial- und Gesellschaftspolitik</td><td>10.2.4</td></tr>
+    </table>
+
+    <h3>3.2 Digitalisierung</h3>
+    <p>43 Abstimmungen | Hauptgruppen: 1 (Staatsordnung), 8 (Verkehr/Infrastruktur), 12 (Kultur/Medien)</p>
+    <table>
+        <tr><th>Thema</th><th>Hauptgruppe</th><th>Unterbereich</th></tr>
+        <tr><td>E-ID</td><td>1. Staatsordnung</td><td>1.6.6 Datenschutz</td></tr>
+        <tr><td>E-Voting</td><td>1. Staatsordnung</td><td>1.4.3 Stimmrecht</td></tr>
+        <tr><td>E-Government</td><td>1. Staatsordnung</td><td>1.3.1 Regierung, Verwaltung</td></tr>
+        <tr><td>Telekommunikation</td><td>8. Verkehr und Infrastruktur</td><td>8.7</td></tr>
+        <tr><td>Digitale Medien</td><td>12. Kultur, Religion, Medien</td><td>12.5</td></tr>
+    </table>
+
+    <h3>3.3 Migration</h3>
+    <p>99 Abstimmungen | Hauptgruppe: 10 (Sozial- und Gesellschaftspolitik)</p>
+    <table>
+        <tr><th>Thema</th><th>Hauptgruppe</th><th>Unterbereich</th></tr>
+        <tr><td>Migration & Integration</td><td>10. Sozial- und Gesellschaftspolitik</td><td>10.3.1</td></tr>
+        <tr><td>Asylpolitik</td><td>10. Sozial- und Gesellschaftspolitik</td><td>10.3.2</td></tr>
+        <tr><td>Einbürgerung</td><td>1. Staatsordnung</td><td>1.6.3 Bürgerrecht</td></tr>
+        <tr><td>Personenfreizügigkeit</td><td>2. Aussenpolitik</td><td>2.5, 2.6</td></tr>
+    </table>
+
+    <h3>3.4 Weitere Querschnittsthemen</h3>
+    <table>
+        <tr><th>Thema</th><th>Betroffene Hauptgruppen</th><th>Abstimmungen</th></tr>
+        <tr><td>Klima & Umwelt</td><td>7 Energie, 8 Verkehr, 9 Umwelt, 5 Landwirtschaft</td><td>203</td></tr>
+        <tr><td>EU & Aussenpolitik</td><td>2 Aussenpolitik</td><td>45</td></tr>
+        <tr><td>Soziale Sicherheit</td><td>10 Sozialversicherungen (AHV, IV, KV, ALV, etc.)</td><td>86</td></tr>
+        <tr><td>Armee & Sicherheit</td><td>3 Sicherheitspolitik</td><td>84</td></tr>
+        <tr><td>Finanzen & Steuern</td><td>6 Öffentliche Finanzen, 4 Finanzwesen</td><td>163</td></tr>
+    </table>
+
+    <h2>4. Vertrauen in den Staat</h2>
+    <p>Relevante Themenbereiche für Vertrauensforschung:</p>
+    <ul>
+        <li><strong>Staatsordnung</strong> – Institutionen, Volksrechte</li>
+        <li><strong>Aussenpolitik</strong> – Regierungskompetenz</li>
+        <li><strong>Öffentliche Finanzen</strong> – Umgang mit Steuergeldern</li>
+        <li><strong>Sozialpolitik</strong> – staatliche Leistungen</li>
+    </ul>
+    <p><strong>Umfragedaten:</strong> VOX (gfs.bern), OECD Trust Survey, Swiss Household Panel, Selects</p>
+
+    <h2>5. Abstimmungen 2026</h2>
+    <h3>5.1 8. März 2026</h3>
+    <ul>
+        <li>Bargeld-Initiative, Gegenentwurf, Stichfrage</li>
+        <li>SRG-Initiative «200 Franken sind genug!»</li>
+        <li>Klimafonds-Initiative</li>
+        <li>Gesetz über die Individualbesteuerung</li>
+    </ul>
+    <h3>5.2 14. Juni 2026</h3>
+    <ul>
+        <li>«Nachhaltigkeitsinitiative»</li>
+        <li>Zivildienstgesetz</li>
+    </ul>
+
+    <h2>6. Zusammenfassung der Konzeption</h2>
+
+    <h3>6.1 Ausgangspunkt</h3>
+    <p>Untersuchung des Swissvotes-Datensatzes mit Fokus auf die Frage:</p>
+    <blockquote>Wie stark folgt die Bevölkerung der Empfehlung des Bundesrats?</blockquote>
+    <p>Ziel: Bestimmung geeigneter Hauptgruppen und thematischer Fokussierung.</p>
+
+    <h3>6.2 Empfohlene analytische Gruppierungen</h3>
+    <p><strong>A) Politikbereiche (zentrale Dimension)</strong></p>
+    <ul>
+        <li>Wirtschaft & Finanzen</li>
+        <li>Sozialpolitik</li>
+        <li>Umwelt / Energie</li>
+        <li>Migration</li>
+        <li>Sicherheit</li>
+        <li>Institutionelles</li>
+    </ul>
+    <p><strong>B) Abstimmungstyp</strong></p>
+    <ul>
+        <li>Volksinitiative</li>
+        <li>Fakultatives Referendum</li>
+        <li>Obligatorisches Referendum</li>
+    </ul>
+    <p><strong>C) Konfliktintensität</strong></p>
+    <ul>
+        <li>Parteieinigkeit vs. Polarisierung</li>
+    </ul>
+
+    <h3>6.3 Rolle von Strategiedokumenten des Bundesrats</h3>
+    <p>Strategiedokumente können helfen:</p>
+    <ul>
+        <li>politische Schwerpunktfelder zu identifizieren</li>
+        <li>die Fragestellung theoretisch zu begründen</li>
+        <li>einen aktuellen Fokus zu setzen</li>
+    </ul>
+    <p>Beispielhafte thematische Fokussierungen: Energie- und Klimapolitik, Sozialpolitik (AHV, Gesundheitskosten), Migration.</p>
+    <p>Strategien dienen primär der <strong>inhaltlichen Rahmung</strong>, nicht direkt als Datengrundlage.</p>
+
+    <h3>6.4 Vertrauen in die Regierung</h3>
+    <p>Es existieren empirische Daten zum Vertrauen in den Bundesrat bzw. staatliche Institutionen:</p>
+    <ul>
+        <li>Bundesamt für Statistik (Vertrauensindikatoren)</li>
+        <li>OECD Trust Survey</li>
+        <li>Vox/VOTO-Nachbefragungen</li>
+        <li>Politikwissenschaftliche Studien (z.B. ETH)</li>
+    </ul>
+
+    <h3>6.5 Mögliche Erweiterung der Analyse</h3>
+    <p>Vertrauen kann als erklärende Variable genutzt werden:</p>
+    <blockquote>Hypothese: Je höher das Vertrauen in den Bundesrat, desto höher die Unterstützung seiner Empfehlung.</blockquote>
+    <p>Mögliche Designs: Zeitreihenanalyse, Verknüpfung von Swissvotes mit Vertrauensdaten, Vergleich nach Politikfeldern.</p>
+
+    <p class="source"><strong>Quellen:</strong> Swissvotes (www.swissvotes.ch), CODEBOOK, Linder et al. (2010): Handbuch der eidgenössischen Volksabstimmungen 1848–2007.</p>
+</body>
+</html>
