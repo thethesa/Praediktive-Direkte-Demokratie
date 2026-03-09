@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/CDA2.iml" filepath="$PROJECT_DIR$/.idea/CDA2.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Praediktive-Direkte-Demokratie.iml" filepath="$PROJECT_DIR$/.idea/Praediktive-Direkte-Demokratie.iml" />
+>>>>>>> 604dd945c16e6de0ca2ff78a92cbd672558bf751
     </modules>
   </component>
 </project>
