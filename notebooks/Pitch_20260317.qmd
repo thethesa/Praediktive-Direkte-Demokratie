@@ -17,15 +17,20 @@ Inwiefern stimmen die Abstimmungsempfehlungen von Bundesrat, Parlament und den g
 
 - Datensatz/Datensätze (Horizontale Recherche & punktueller Deep Dive)
 - Variabeln 
-- Untersuchungszeitraum begründen 
-- Entwickelte Einigkeitsskale erläutern
+- Untersuchungszeitraum begründen (1970-2025, Kontinuität Daten)
+- Entwickelte Einigkeitsskala erläutern
 
 ### Analyse 
 
-- Zeitliche Achse:  Regierungskonformitätswerte über Zeit nach Vorlagentyp (obligatorisches Referendum, fakultatives Referendum, Volksinitiative) 
-- Thematische Achse: Regierungskonformitätswerte über Themen nach Vorlagentyp (obligatorisches Referendum, fakultatives Referendum, Volksinitiative) 
-- Geografische Achse? 
-- Anwendung unseres Modells 
+- <span style="color: #8E44AD;">Zeitliche Achse:</span>  Regierungskonformitätswerte über Zeit nach Vorlagentyp (obligatorisches Referendum, fakultatives Referendum, Volksinitiative) 
+- <span style="color: #27AE60;">Thematische Achse:</span> Regierungskonformitätswerte über Themen nach Vorlagentyp (obligatorisches Referendum, fakultatives Referendum, Volksinitiative)
+- Anwendung Einigkeitsskala
+
+![](plots/methodische_grafik_hauptgruppen.svg)
+
+Die vorliegende Grafik zeigt das Vorgehen bei der Analyse auf, nach erfolgter <span style="color: #2980B9;">thematischer Recherche und Grundlagearbeit</span> findet eine <span style="color: #8E44AD;">horizontale Analyse mit einzelnen Deep Dives</span> statt. Die einzelnen Deep Dives, dargestellt als violette Punkte, dienen einer stichprobenartigen Prüfung der horizontalen Analyse. Die horizontale Analyse dient der Untersuchung der zeitlichen Achse sowie der Definition der <span style="color: #27AE60;">thematischen Schwerpunkte</span>, wobei jeweils die Haupgruppen mit grösster und kleinster Einigkeit im Zentrum stehen.
+
+Bonus: Geografische Achse wird erarbeitet, sofern Relevanz während Projektverlauf erkannt wird.
 
 ### Abgleich mit VOX/TOTO 
 
