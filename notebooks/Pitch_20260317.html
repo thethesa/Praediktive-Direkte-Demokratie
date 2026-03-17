@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Datensatz/Datensätze (Horizontale Recherche &amp; punktueller Deep Dive)</li>
 <li>Variabeln</li>
 <li>Untersuchungszeitraum begründen (1970-2025, Kontinuität Daten)</li>
-<li>Entwickelte Einigkeitsskala erläutern</li>
+<li>Entwickelter Zustimmungswert erläutern</li>
 </ul>
 </section>
 <section id="analyse" class="level3">
@@ -79,10 +79,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><span style="color: #8E44AD;">Zeitliche Achse:</span> Regierungskonformitätswerte über Zeit nach Vorlagentyp (obligatorisches Referendum, fakultatives Referendum, Volksinitiative)</li>
 <li><span style="color: #27AE60;">Thematische Achse:</span> Regierungskonformitätswerte über Themen nach Vorlagentyp (obligatorisches Referendum, fakultatives Referendum, Volksinitiative)</li>
-<li>Anwendung Einigkeitsskala</li>
+<li>Anwendung Zustimmungswert</li>
 </ul>
 <p><img src="plots/methodische_grafik_hauptgruppen.svg" class="img-fluid"></p>
-<p>Die vorliegende Grafik zeigt das Vorgehen bei der Analyse auf, nach erfolgter <span style="color: #2980B9;">thematischer Recherche und Grundlagearbeit</span> findet eine <span style="color: #8E44AD;">horizontale Analyse mit einzelnen Deep Dives</span> statt. Die einzelnen Deep Dives, dargestellt als violette Punkte, dienen einer stichprobenartigen Prüfung der horizontalen Analyse. Die horizontale Analyse dient der Untersuchung der zeitlichen Achse sowie der Definition der <span style="color: #27AE60;">thematischen Schwerpunkte</span>, wobei jeweils die Haupgruppen mit grösster und kleinster Einigkeit im Zentrum stehen.</p>
+<p>Die vorliegende Grafik zeigt das Vorgehen bei der Analyse auf, nach erfolgter <span style="color: #2980B9;">thematischer Recherche und Grundlagearbeit</span> findet eine <span style="color: #8E44AD;">horizontale Analyse mit einzelnen Deep Dives</span> statt. Die einzelnen Deep Dives, dargestellt als violette Punkte, dienen einer stichprobenartigen Prüfung der horizontalen Analyse. Die horizontale Analyse dient der Untersuchung der zeitlichen Achse sowie der Definition der <span style="color: #27AE60;">thematischen Schwerpunkte</span>, wobei jeweils die Haupgruppen mit grösster und kleinster Zustimmung im Zentrum stehen.</p>
 <p>Bonus: Geografische Achse wird erarbeitet, sofern Relevanz während Projektverlauf erkannt wird.</p>
 </section>
 <section id="abgleich-mit-voxtoto" class="level3">
@@ -124,6 +124,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Aus den Daten geht hervor, dass die Initiativen über lange Zeiträume komplett angenommen wurden. Mit Quervergleichen in den Daten konnte jedoch festgestellt werden, dass ein Fehler in der Abstufung der Grafik vorliegen muss. Es gab durchaus Differenzen besondern in den Jahren zwischen 1950 und 1970. <img src="plots/abstimmung.png" class="img-fluid"> <img src="plots/zeitliche_vis.png" class="img-fluid"></p>
 <p>Die kantonale Treue zu den Empfehlungen des Bundesrats scheint vor allem beim Kanton Schwyz einen Ausreisser zu beinhalten. Weiter ist die Sprachregion deutlicher zu differenzieren, da gerade Grenzkantone sicherlich ein diffuseres Bild abgeben und der Röstigraben nicht an den Kantonsgrenzen entlang läuft. <img src="plots/kantonal.png" class="img-fluid"></p>
 <p>Aus den Visualisierungen geht aktuell eine Überraschung hervor, dass zum Beispiel Basel Stadt in Themen von Armee und Sicherheit eher der Empfehlung des Bundesrats folgt. Solche kantonale Ausreisser sind konkret zu untersuchen, da gerade Basel Stadt eher für seine linksgrüne Politik bekannt ist und daher mutmasslich eher weniger den Empfehlungen des Bundesrats folgt. <img src="plots/heatmap.png" class="img-fluid"></p>
+</section>
+<section id="diskussion-zustimmungswert" class="level2">
+<h2 class="anchored" data-anchor-id="diskussion-zustimmungswert">Diskussion Zustimmungswert</h2>
+<p>Option A ZF = Anteil_Zustimmung x Anteil_Mobilisierung</p>
+<p>Das würden die beiden Anteile gleichwertig betrachten und mit einander multiplizieren. 10% Mob, 90% Zust = 0.09</p>
+<p>Das würde aber die Mobilisierungsrate gleichgewichten wie die Zustimmung, was ich aus demokratietheoretischer Sicht nicht ganz so optimal finde. Was sind zum Beispiel die Gründe weshalb Leute nicht wählen geht? Desinteresse, die Überzeugung dass das Anliegen auch ohne ihr zu tun durchkommt. Deshalb bevorzuge ich die Option B:</p>
+<p>Option B ZF = Anteil_Zustimmung × Anteil_Mobilisierung^αs</p>
+<p>Wobei Alpha ein Faktor wäre den wir auserkoren würden. Je tiefer Alpha, desto mehr Gewicht geben wir dem Wert Zustimmungswert (z.B. 70% der Personen sind für die Vorlage wie der Bundesrat oder Parlament). Bei α = 0.5 → eine Verdopplung der Beteiligung verbessert den Index nur um Faktor ~1.4, nicht um Faktor 2. Claude meint hier: Das reflektiert, dass Mobilisierung ein Qualitätsmerkmal, nicht der Kerngehalt der demokratischen Aussage ist. <img src="plots/entscheid_mobilisierung.png" class="img-fluid"></p>
 </section>
 </section>
 
