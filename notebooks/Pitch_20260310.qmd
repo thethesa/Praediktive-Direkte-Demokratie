@@ -63,8 +63,16 @@ VOX-Analysen eidgenössischer Urnengänge: Befragung von Stimmberechtigten nach 
 ## Data Visualization 
 Der vorliegende Datensatz enthält 708 Beobachtungen im Zeitraum von 1848 bis 2026. Die einzelnen Beobachtungen sind in 12 Haupgruppen unterteilt, wobei sich die beiden Themengebiete Staatsordnung sowie Sozial- und Gesellschaftspolitik in der Anzahl der Beobachtungen klar abheben und gemeinsam rund 60% der Beobachtungen ausmachen. Dies entspricht rund dem fünffachen Anteil der Beobachtungen in den drei Themengebieten Energie, Bildung Forschung und Kultur, Religion, Medien, welche jeweils rund 13% der Beobachtungen ausmachen. Die Beobachtungen der beiden Kategorien Umwelt und Lebensraum sowie Energie wurden aufgrund weniger Beobachtungen in den nachfolgenden Grafiken zur Kategorie Klima und Umwelt zusammengefasst.
 
-
+Gemäss ersten Auswertungen folgt das Volk bei Themen der Staatsordnung und Aussenpolitik weniger den Empfehlungen des Bundesrats. Wichtig in diesem Zusammenhang ist die Tatsache, dass gerade im Bereich Klima & Umwelt nicht gleich viel Daten vorliegen, wie bei der Staatsordnung. Für die vorliegende Arbeit wird es ausserdem relevant sein, die Initiativen und Referenden konkret zu untersuchen und grafisch zu unterscheiden.
 
 ![](plots/beides.png)
+
+Aus den Daten geht hervor, dass die Initiativen über lange Zeiträume komplett angenommen wurden. Mit Quervergleichen in den Daten konnte jedoch festgestellt werden, dass ein Fehler in der Abstufung der Grafik vorliegen muss. Es gab durchaus Differenzen besondern in den Jahren zwischen 1950 und 1970.
 ![](plots/abstimmung.png)
 ![](plots/zeitliche_vis.png)
+
+Die kantonale Treue zu den Empfehlungen des Bundesrats scheint vor allem beim Kanton Schwyz einen Ausreisser zu beinhalten. Weiter ist die Sprachregion deutlicher zu differenzieren, da gerade Grenzkantone sicherlich ein diffuseres Bild abgeben und der Röstigraben nicht an den Kantonsgrenzen entlang läuft.
+![](plots/kantonal.png)
+
+Aus den Visualisierungen geht aktuell eine Überraschung hervor, dass zum Beispiel Basel Stadt in Themen von Armee und Sicherheit eher der Empfehlung des Bundesrats folgt. Solche kantonale Ausreisser sind konkret zu untersuchen, da gerade Basel Stadt eher für seine linksgrüne Politik bekannt ist und daher mutmasslich eher weniger den Empfehlungen des Bundesrats folgt.
+![](plots/heatmap.png)
